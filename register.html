@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        form {
+            background: rgba(173, 187, 91,0.1);
+            padding: 20px;
+            margin-top:300px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+            width:80vw;
+        }
+        .name-details {
+            display: flex;
+            justify-content: space-between;
+        }
+        .name-details input {
+            width: 48%;
+        }
+        input[type="text"], input[type="password"], input[type="date"] {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0 10px 0;
+            border: 1px solid rgba(0, 0, 0, 0.353);
+            border-radius: 19px;
+            background: rgba(157, 153, 153, 0.13);
+        }
+        input[type="submit"] {
+    display: block; /* Added */
+    width: 50%; /* Adjusted */
+    height: 50px; /* Adjusted */
+    margin: 30px auto; /* Added */
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 20px; /* Adjusted */
+    cursor: pointer;
+}
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+        label {
+            color: #82721B;
+        }
+        h1 {
+            color: #82721B;
+            text-align: center; /* Added */
+        }
+        img{
+            position: absolute;
+            top:0;
+            left:0;
+        }
+    </style>
+    <script src="script.js"></script>
+    </head>
+<body>
+    <img src="suvidha mahila mandal.jpeg" alt="">
+    <form>
+        <h1>Register Now!!</h1>
+        <div class="name-details">
+            <div>
+                <label for="fname">First Name</label><br>
+                <input type="text" id="fname" name="fname">
+            </div>
+            <div>
+                <label for="lname">Last Name</label><br>
+                <input type="text" id="lname" name="lname">
+            </div>
+        </div>
+        <label for="username">Username</label><br>
+        <input type="text" id="username" name="username"><br>
+        <label for="email">Email</label><br>
+        <input type="text" id="email" name="email"><br>
+        <label for="password">Password</label><br>
+        <input type="password" id="password" name="password"><br>
+        <label for="cpassword">Confirm Password</label><br>
+        <input type="password" id="cpassword" name="cpassword"><br>
+        <label for="degree">Degree/Year of Study</label><br>
+        <input type="text" id="degree" name="degree"><br>
+        <label for="college">College</label><br>
+        <input type="text" id="college" name="college"><br>
+        <label for="startdate">Internship Start Date</label><br>
+        <input type="date" id="startdate" name="startdate"><br>
+        <label for="enddate">Internship End Date</label><br>
+        <input type="date" id="enddate" name="enddate"><br>
+        <input type="submit" value="Register" onclick="location.href='intern.html'">
+    </form>
+    
+</body>
+</html>

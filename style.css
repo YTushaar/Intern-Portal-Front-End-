@@ -1,0 +1,105 @@
+body {
+    background-color:#FFF;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+img{
+    "width: 456px; 
+    height: 102px; 
+    left: -10px; 
+    top: 9px; 
+    position: absolute;
+}
+.container {
+    text-align: center;
+    background-color:#F6F7F2;
+    padding-left: 200px;
+    padding-right:200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border-radius: 20px;
+}
+.button {
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+#or
+{
+color: black;
+font-size: 30px;
+font-family: Inter;
+font-style: italic;
+font-weight: 800;
+word-wrap: break-word
+}
+.admin {
+background-color: red;
+color: white;
+ font-size: 38px;
+ font-family: Inter;
+ font-style: Extra Bold italic;
+ font-weight: 800;
+ word-wrap: break-word
+}
+.intern {
+    background-color: green;
+color: white;
+font-size: 38px;
+font-family: Inter;
+font-style: italic;
+font-weight: 800;
+word-wrap: break-word
+}
+.Portal {
+color: #82721B;
+font-size: 38px;
+font-family: Inter;
+font-style: italic;
+font-weight: 800;
+word-wrap: break-word;
+}
+.aid
+{
+ display: flex;
+width: 472px;
+height: 40px;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+color: #82721B;
+font-family: Inter;
+font-size: 26px;
+font-style: italic;
+font-weight: 600;
+line-height: normal;
+}
+.pwd
+{
+display: flex;
+width: 472px;
+height: 40px;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+color: #82721B;
+font-family: Inter;
+font-size: 26px;
+font-style: italic;
+font-weight: 600;
+line-height: normal;
+}
+.btn-warning {
+background-color: #FFD700; 
+width: 190px;
+height: 54px;
+flex-shrink: 0;
+}
+

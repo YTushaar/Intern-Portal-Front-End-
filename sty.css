@@ -1,0 +1,36 @@
+.container {
+    width: 756px;
+    height: 695px; 
+    left: 328px; 
+    top: 94px; 
+    position: absolute;
+}
+.entry
+{
+    width: 504px; height: 60px; left: 125px; top: 400px; position: absolute; background: rgba(156.81, 153.15, 153.15, 0.13); border-radius: 19px;
+}
+.reg{
+    width: 190px; 
+    height: 54px; 
+    left: 101px; 
+    top: 576px; 
+    position:absolute; 
+    background:#E45656; 
+    font-size: large;
+    color:white;
+    border-radius: 22px; 
+    border: 2px black solid;
+}
+.login
+{
+    width: 190px;
+     height: 54px; 
+     left: 446px; 
+     top: 576px; 
+     position: absolute; 
+     background: #61E456; 
+     border-radius: 22px; 
+     font-size: large;
+     color: white;
+     border: 2px black solid;
+}
